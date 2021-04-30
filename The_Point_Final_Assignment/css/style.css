@@ -1,0 +1,321 @@
+header {
+  border-top: 10px solid #1c1c1c;
+  background-color: #f8f8f8;
+}
+
+.header-left {
+  text-align: center;
+}
+
+.border-bottom-1px {
+  border-bottom: 1px solid #dddddd;
+}
+
+.logo-subtitle {
+  font-size: 0.75rem;
+  color: #b2b2b2;
+}
+
+.search-bar-container {
+  text-align: center;
+}
+
+.search-bar {
+  border: 1px solid #dddddd;
+  outline: none;
+}
+
+#search-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d54346;
+  color: white;
+  font-size: 0.7rem;
+  transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+  background-color: #b43b3d;
+}
+
+#search-btn:active {
+  background-color: #923436;
+}
+
+.nav-bar-right,
+.nav-bar-left {
+  text-align: center;
+}
+
+.nav-item-link {
+  text-decoration: none;
+}
+
+.nav-item-link:first-child {
+  border-left: none;
+}
+
+.nav-icon-link {
+  list-style: none;
+}
+
+.menu-item-heading {
+  letter-spacing: 0.4px;
+  font-size: 0.688rem;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.menu-item-subtext {
+  font-size: 12px;
+  color: #999999;
+}
+
+.nav-item-link:hover .menu-item-heading {
+  color: #d54346;
+}
+
+.nav-icon-link {
+  text-decoration: none;
+}
+
+.image-description-container {
+  text-align: center;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.image-description-text {
+  font-size: 0.813rem;
+  color: #bfbfbf;
+}
+
+.image-position-dots {
+  text-align: center;
+}
+
+.dot {
+  content: url("../images/icons/inactive-dot.png");
+  cursor: pointer;
+}
+
+.active-dot {
+  content: url("../images/icons/active-dot.png");
+}
+
+.members-container {
+  text-align: center;
+}
+
+.member-section-heading {
+  text-align: center;
+}
+
+.member-profile-picture {
+  text-align: center;
+}
+
+.member-top-description {
+  font-size: 1.8rem;
+  color: #4a4a4a;
+}
+
+.member-bottom-description {
+  font-size: 1.3rem;
+  color: #999999;
+}
+
+.member-name {
+  font-size: 0.813rem;
+  color: #999999;
+}
+
+.member-link:hover {
+  text-decoration: underline;
+}
+
+.pw-paragraph {
+  font-size: 20px;
+}
+
+.pw-heading {
+  font-size: 50px;
+  color: #d44346;
+}
+
+.member-description {
+  text-align: center;
+}
+
+.member-link {
+  text-decoration: none;
+  color: #d54346;
+}
+
+.project-article {
+  text-align: center;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  color: #4a4a4a;
+}
+
+.project-summary {
+  font-size: 0.813rem;
+  line-height: 1.2rem;
+  color: #999999;
+}
+
+.read-more-btn {
+  border: none;
+  background-color: #d54346;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #c23e40;
+}
+
+.read-more-btn:active {
+  background-color: #a03234;
+}
+
+.projects-section-left {
+  text-align: right;
+}
+
+.link-list {
+  list-style: none;
+}
+
+footer {
+  color: white;
+}
+
+.top-footer-outer-container {
+  border-top: 4px solid #871f21;
+  background-color: #d54346;
+  border-bottom: 1px solid #b7282c;
+}
+
+.bottom-footer-outer-container {
+  background-color: #d54346;
+  border-top: 1px solid #db6063;
+}
+
+.footer-title-fs {
+  font-size: 0.75rem;
+}
+
+.footer-content-fs {
+  font-size: 0.813rem;
+  line-height: 1.2rem;
+}
+
+.post-title {
+  font-size: 0.875rem;
+  line-height: 1.3rem;
+}
+
+.post-date {
+  font-size: 0.625rem;
+}
+
+.source-from {
+  text-align: center;
+}
+
+.form-text-field {
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 6px;
+}
+
+.link-list-item {
+  border-bottom: 1px solid #d85255;
+}
+
+.link,
+.read-more-link {
+  color: #631618;
+  font-size: 0.813rem;
+  text-decoration: none;
+}
+
+.link:hover,
+.read-more-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #631618;
+}
+
+.submit-button {
+  border: none;
+  background-color: #871f21;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #792527;
+}
+
+.submit-button:active {
+  background-color: #5a1c1d;
+}
+
+.copyright-description {
+  text-align: center;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.line {
+  border-radius: 2px;
+  background-color: rgb(196, 57, 57);
+}
+
+@media screen and (min-width: 768px) {
+  .member-top-description {
+    font-size: 2.375rem;
+  }
+
+  .member-bottom-description {
+    font-size: 1.625rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .nav-item-link {
+    border-left: 1px solid black;
+  }
+
+  .logo-subtitle {
+    border-left: 1px solid #b2b2b2;
+  }
+
+  .nav-bar-left {
+    text-align: left;
+  }
+
+  .member-profile-picture {
+    text-align: left;
+  }
+
+  .pw-heading {
+    font-size: 70px;
+  }
+
+  .copyright-description {
+    text-align: left;
+  }
+}

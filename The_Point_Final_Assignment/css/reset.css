@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia;
+  font-size: 1rem;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  * {
+    font-size: 1rem;
+  }
+}
