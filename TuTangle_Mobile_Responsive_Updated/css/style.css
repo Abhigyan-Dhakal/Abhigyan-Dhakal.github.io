@@ -1,0 +1,343 @@
+.logo {
+  text-align: center;
+}
+
+.nav-bar {
+  background-color: #7dd8e8;
+}
+
+.nav-bar-right {
+  color: #363c3d;
+}
+
+.search-text-field {
+  border: none;
+  outline: none;
+  background-color: #cbeff6;
+  color: #8a9495;
+  font-size: 11px;
+}
+
+.search-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #284e57;
+  color: #cad4d5;
+  font-size: 9px;
+}
+
+.cross-icon {
+  cursor: pointer;
+  background-color: #cbeff6;
+}
+
+.search-icon {
+  text-align: center;
+  cursor: pointer;
+  background-color: #cbeff6;
+}
+
+.username-heading {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  /* background-color: red; */
+  padding: 10px 0px;
+}
+
+.menu {
+  list-style: none;
+  text-align: center;
+}
+
+.menu-button {
+  background-color: #7dd8e8;
+  border: none;
+}
+
+.menu-link {
+  color: #363c3d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.menu-left {
+  text-align: center;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.menu-right {
+  text-align: center;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.top-menu-container {
+  background-color: #f5f5f5;
+}
+
+.top-menu-link {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+.menu-link-friend {
+  color: #979797;
+}
+
+.top-menu-link:hover {
+  color: #51aebf;
+}
+
+.mobile-center-content-menu {
+  background-color: #f4f4f4;
+}
+
+.aside-heading-div {
+  background-color: #2fc1d9;
+}
+
+.aside-headings {
+  font-size: 16px;
+  color: white;
+}
+
+.aside-content {
+  background-color: #f5f5f5;
+}
+
+.aside-item {
+  font-size: 13px;
+  font-weight: bold;
+  color: #292929;
+}
+
+.icon-container {
+  padding: 0px 2px;
+  cursor: pointer;
+}
+
+.center-content-heading {
+  text-align: center;
+}
+
+.center-head {
+  font-size: 24px;
+  color: #383838;
+}
+
+.tab-container {
+  border-bottom: 2px solid #2fc1d9;
+}
+
+.tab-link {
+  text-decoration: none;
+}
+
+.article {
+  border-bottom: 2px solid #d8d8d8;
+}
+
+.article-head {
+  font-size: 18px;
+  color: rgb(56, 56, 56);
+  text-align: center;
+}
+
+.article-image-container {
+  text-align: center;
+}
+
+.article-link {
+  text-decoration: none;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.article-status {
+  font-size: 10px;
+  text-align: center;
+}
+
+.article-details,
+.article-source {
+  font-size: 11px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.article-details p {
+  color: #5c5c5c;
+}
+
+.article-source p {
+  color: #5c5c5c;
+}
+
+.article-description-blue {
+  color: #51aebf;
+}
+
+.article-status-red {
+  color: #d4401c;
+}
+
+.subscription {
+  color: #6f9621;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center-head {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.tabs {
+  border-bottom: 2px solid #2fc1d9;
+  /* background-color: #f5f5f5; */
+}
+
+.tab {
+  color: #353535;
+  text-align: center;
+}
+
+.active-tab {
+  color: white;
+}
+
+.tab:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.tab-heading {
+  background-color: #2fc1d9;
+}
+
+.tab-heading-txt {
+  color: #3c3c3c;
+  text-align: center;
+}
+
+.tab p {
+  font-size: 12px;
+}
+
+.recent-item {
+  cursor: pointer;
+}
+
+.recent-item:hover {
+  background-color: #ffffff;
+}
+
+.right-aside-item:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #727272;
+}
+
+.footer-menu-item-link {
+  color: #d5d5d5;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.site {
+  color: #d5d5d5;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+.footer-left,
+.footer-right {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-menu-link {
+    font-size: 12px;
+  }
+
+  .menu-left {
+    border-bottom: none;
+  }
+
+  .menu-right {
+    border-bottom: none;
+  }
+
+  .tab-heading {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .username-heading {
+    font-size: 14px;
+    text-align: right;
+    padding: 0px;
+  }
+
+  .top-menu-link {
+    font-size: 13px;
+  }
+
+  .menu-link {
+    font-size: 12px;
+  }
+
+  .aside-item {
+    font-size: 11px;
+  }
+
+  .menu {
+    text-align: left;
+  }
+
+  .tab p {
+    font-size: 11px;
+  }
+
+  .article-head {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .article-details,
+  .article-source {
+    text-align: left;
+  }
+
+  .article-status {
+    text-align: left;
+  }
+
+  .center-content-heading {
+    text-align: left;
+  }
+
+  .footer-menu-item-link {
+    color: #d5d5d5;
+    text-decoration: none;
+    font-size: 9px;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+}
