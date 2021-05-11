@@ -1,0 +1,31 @@
+.carousel-container{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgb(134, 134, 134);
+}
+
+.carousel-image-wrapper{
+  transition: transform 0.6s ease;
+}
+
+.slider-button{
+  background-color: rgba(80, 80, 80, 0.514);
+  cursor: pointer;
+  color: rgb(199, 199, 199);
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.dots label{
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots label:hover{
+  background-color: rgba(255, 255, 255, 0.726);
+}
+
+
+.dot.active-indicator{
+  border: 3px solid rgba(255, 255, 255, 0.719);
+}
